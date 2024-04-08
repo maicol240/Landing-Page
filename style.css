@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 *{
     margin: 0;
@@ -7,9 +9,10 @@
 
 body{
 
-    font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
+
 }
 
 
@@ -149,4 +152,40 @@ flex-direction: column;
     align-content: center;
     background-color: gray;
    
+}
+
+/* info section  End */
+
+/* Quote section starts here */
+.quote-section-container{
+    
+    display: flex;
+    background-color: #e5e7eb; 
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    height: 500px;
+
+ 
+}
+
+.quote-section-container .content{
+
+    display: flex;
+    flex-direction: column;
+    
+    width:800px;
+    margin: 20px;
+    
+}
+.content .quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+   
+}
+.quoter{
+    align-self: self-end;
+    font-size: 21px;
+    font-weight: bolder;
 }
