@@ -13,18 +13,18 @@ body{
 }
 
 
-/* Top Content stylying */
+/* Top Content styling starts here*/
+
 .hero-container{
     display: flex;
     background-color: #1f2937;
-    border: solid red 1px;
+    
     flex-direction: column;
-    padding-bottom: 100px;
     flex: 1;
-    padding: 10px 20px 0 20px;
+    padding: 20px 20px 100px 20px;
 }
 
-/* Header Styling and Layour */
+/* Header Styling and Layout*/
 .header-container{
 
     display:flex;
@@ -56,6 +56,7 @@ body{
     white-space: nowrap;
     flex-wrap: wrap-reverse;
 }
+/* end of  header stlying*/
 
 /* Hero Content css */
 .hero-content{
@@ -69,7 +70,6 @@ body{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    border:1px solid rebeccapurple;
     max-width: 500px;
 }
 
@@ -79,25 +79,74 @@ body{
     max-width: 400px;
     }
 
-
-
-
-
-
 /* Just display purposes */
 .hero-right{
     
-    
-    width: 600px;
+    max-width: 500px;
+    height: 200px;
     text-align: center;
     align-content: center;
     background-color: gray;
    
 }
 
-/* IMG widh and height constrains  change as desired*/
-.hero-right img{
+/* IMG widh and height constrains */
+.hero-right img
+{
      width: 100%;
     height: 100%;
+}
 
+/* end of Hero content styling */
+
+/* Info Section Starts */
+.info-container{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.information-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 40px;
+}
+/*  Main container for main text located here */
+.info-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    
+}
+/*  Info block text */
+.info .text{
+    margin-top: 10px;
+}
+.info{
+    width: 200px;
+    
+
+}
+
+
+
+.info img{
+    width: 100%;
+    height: 100%;
+}
+/* JUST FOR DISPLAY */
+.info-box{
+    
+    max-width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    background-color: gray;
+   
 }
