@@ -81,7 +81,16 @@ body{
     color: #e5e7eb;
     max-width: 400px;
     }
-
+    /* rounded button */
+    .hero-container button{
+        margin-top: 20px;
+        align-self: flex-end;
+        background-color: #3882f6;
+        padding: 10px 30px 10px 30px;
+        border-radius: 12px;
+        color: white;
+        border:  none;
+    }
 /* Just display purposes */
 .hero-right{
     
@@ -188,4 +197,36 @@ flex-direction: column;
     align-self: self-end;
     font-size: 21px;
     font-weight: bolder;
+} 
+
+/* Footer stars here */
+
+.footer-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
+
+.footer{
+    margin: 50px 0px 50px 0px;
+    padding: 40px 90px;
+    background-color: #3882f6;
+    display: flex;
+    border: none;
+    width: 1000px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+/* Rounder button */
+.footer button{
+    align-self: flex-end;
+    background-color: #3882f6;
+    padding: 10px 30px 10px 30px;
+    border-radius: 12px;
+    color: white;
+    border:  2px solid #f9faf8;
+}
+
