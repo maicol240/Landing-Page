@@ -9,4 +9,4 @@ This project is a basic landing page designed as part of The Odin Project curric
 - Responsive design
 
 ## Design
-The design of this landing page follows the specifications provided by The Odin Project. It includes sections that showcase beautiful images and accompanying text to create an engaging us
+The design of this landing page follows the specifications provided by The Odin Project. It includes sections that showcase beautiful images and accompanying text to create an engaging user experience.
