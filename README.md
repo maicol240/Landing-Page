@@ -1,9 +1,15 @@
-# Landing-Page
+# Landing Page
 
+## Overview
 
-Sources:
-Tree  by Photo by <a href="https://unsplash.com/@toddquackenbush?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Todd Quackenbush</a> on <a href="https://unsplash.com/photos/green-leaf-tree-on-shore-XBxQZLNBM0Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-  Moon  by Photo by <a href="https://unsplash.com/@adinc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Altınay Dinç</a> on <a href="https://unsplash.com/photos/full-moon-and-clouds-LluELtL5mK4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-  
+This project is a basic landing page designed as part of The Odin Project curriculum. The landing page features visually appealing images of nature and animals, including a tree, the moon, and a wolf. The design and layout were specified by The Odin Project to help learners practice HTML and CSS skills.
+
+## Features
+
+- Clean and simple layout
+- High-quality images
+- Responsive design
+
+## Design
+
+The design of this landing page follows the specifications provided by The Odin Project. It includes sections that showcase beautiful images and accompanying text to create an engaging user experience.
